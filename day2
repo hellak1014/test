@@ -1,76 +1,562 @@
+// class Main {
+//   public static void main(String[] args) {
+
+// System.out.println("Hello World!!!");
+    
+//   }
+// }
+
+
+
+// import java.util.Scanner;
+
+// class Main {
+//   public static void main(String[] args) {
+
+// Scanner stdIn = new Scanner(System.in);
+//     System.out.println("정숫값 :");
+//     int x = stdIn.nextInt();
+
+//     System.out.println("마지막 자릿수를 제외한 값은 " + (x / 10) + "입니다."); // /(나누기)했기 때문에 뒷 숫자는 버림처리 되었음
+//     //나누기는 홀수 짝수 배수 연산자 구할때 사용
+// System.out.println("마지막 자릿수는 " + (x%10)+ "입니다.");    // % -> 나누고 난 나머지를 반환한다. 그래서 마지막 숫자만 남는것.
+
+//   }
+    
+//   }
+
+
+
+
+
+// import java.util.Scanner;
+
+// class Main {
+//   public static void main(String[] args) {
+
+// Scanner stdIn = new Scanner(System.in);
+//   System.out.println("x값 :");
+//   Double x = stdIn.nextDouble();//객체이름수정
+//  System.out.println("y값 :");
+//     Double y = stdIn.nextDouble();
+    
+//     System.out.println("합계는 " + (x + y) + "입니다.");
+//     System.out.println("평균은" + (x + y) / 2 + "입니다.");
+
+
+//   }
+
+//   }  
+
+
+// import java.util.Scanner;
+
+// class Main {
+//   public static void main(String[] args) {
+
+// Scanner stdIn = new Scanner(System.in);
+    
+//     System.out.println("삼각형의 넓이를 구합니다.");
+    
+//     System.out.println("밑변:");
+//     Double width = stdIn.nextDouble();
+    
+//   System.out.println("높이:");    
+//     Double height = stdIn.nextDouble();
+    
+//   System.out.println("넓이는 " + ((width + height) / 2) + "입니다.");
+
+
+//   }
+// }
+
+
+
+
+//------------------------------if시작----------------------------------------//
+
+
+
+// class Main {
+//   public static void main(String[] args) {
+
+
+// int x = 0; //정수형 변수 x에 초기값 0을 대입
+//     System.out.printf("x=%d 일 때, 참인 것은%n", x);  // %d 자리표시자.-> 정수 한개. 
+//     //%n는 개행문자. 줄바꿈
+
+//     if(x==0) System.out.println("x==0"); // if 구문에서 true 일경우 실행하는 구문은 중괄호를 항상 사용하자. (이게 FM)
+//     //if(x==0) {
+//     //        System.out.println("x==0");
+//     //}
+//     if(x!=0) {
+//             System.out.println("x!=0");
+//     }
+//     if(!(x==0)) {
+//                 System.out.println("!(x==0)");
+//     }
+//     if(!(x!=0)) {
+//                 System.out.println("!(x!=0)");
+//     }
+
+//     x = 1;
+//     System.out.printf("x=%d 일 때, 참인 것은 %n", x);
+
+//     if(x==0) {
+//               System.out.println("x==0");
+//     }
+//     if(x!=0) {
+//               System.out.println("x!=0");}
+//     if(!(x==0)) {
+//                 System.out.println("!(x==0)");
+//     }
+//     if(!(x!=0)) {
+//                 System.out.println("!(x!=0)");
+//     }
+
+
+//   }
+
+// }
+
+
+
+
+// import java.util.*; //scanner를 사용하기 위해 추가
+
+// class Main {
+// public static void main(String[] args) {
+
+
+// int input;
+//   System.out.print("숫자를 하나 입력하세요.>");
+
+// Scanner scanner = new Scanner(System.in) ;
+// String tmp = scanner.nextLine();
+// input = Integer.parseInt(tmp);
+
+// if(input==0) {
+//   System.out.println("입력하신 숫자는 0입니다.");
+// }
+// if(input!=0) {
+//   System.out.println("입력하신 숫자는 0이 아닙니다.");
+//   System.out.printf("입력하신 숫자는 %d입니다.", input);
+// }
+
+// }
+
+// }  
+
+
+//if문 중괄호 꼭 쓰기
+// == > 같다. = -> 대입 != -> 다르다.
+
+
+
+
+// import java.util.*;//scanner를 사용하기 위해 추가
+
+// class Main {
+// public static void main(String[] args) {
+
+// System.out.print ("숫자를 하나 입력하세요.>");
+//     Scanner scanner = new Scanner(System.in);
+//     int input = scanner.nextInt();
+
+//   if(input==0) {
+//       System.out.println("입력하신 숫자는 0입니다.");
+//   } else {
+//       System.out.println("입력하신 숫자는 0이 아닙니다");
+//          }
+    
+//   }
+
+// }
+
+
+
+// import java.util.*;//scanner를 사용하기 위해 추가
+
+// class Main {
+// public static void main(String[] args) {
+
+// System.out.print ("숫자를 하나 입력하세요.>");
+//     Scanner scanner = new Scanner(System.in);
+//     int input = scanner.nextInt();
+
+//   if(input==0) {
+//       System.out.println("입력하신 숫자는 0입니다.");
+//   } else {
+//       System.out.println("입력하신 숫자는 0이 아닙니다");
+//          }
+    
+//   }
+
+// }  
+
+//추가과제 : 홀수인지 짝수인지 알아보는 방법 %2 (%가 나누기임)
+
+
+
+
+
+// import java.util.*;//scanner를 사용하기 위해 추가
+
+// class Main {
+// public static void main(String[] args) {
+
+// System.out.print ("숫자를 하나 입력하세요.>");
+//     Scanner scanner = new Scanner(System.in);
+//     int input = scanner.nextInt();
+
+// if(input % 2==0) {
+//       System.out.println("입력하신 숫자는 짝수입니다.");
+// } else {
+//       System.out.println("입력하신 숫자는 홀수입니다.");
+// }
+
+// }
+
+// }
+
+
+
+
+// import java.util.*;//scanner를 사용하기 위해 추가
+
+// class Main {
+// public static void main(String[] args) {
+
+// System.out.print ("숫자를 하나 입력하세요.>");
+//     Scanner scanner = new Scanner(System.in);
+//     int input = scanner.nextInt();
+
+//   if(input % 3==0)  {
+//         System.out.println("입력하신 숫자는 3의 배수입니다.");
+//   } else {
+//         System.out.println("입력하신 숫자는 3의 배수가 아닙니다.");
+//   }
+
+// }
+// }
+
+
+
+
+// import java.util.*;
+
+// class Main{
+// public static void main(String[] args) {
+
+// System.out.print ("점수를 입력하세요.>");
+// Scanner scanner = new Scanner(System.in);
+// int input = scanner.nextInt();
+// char grade = ' ';
+
+// if(input >= 90) {
+//            grade = 'A'; //부등호 위치 신경쓰기. 
+// } else if(input >= 80) {
+//            grade = 'B';
+// } else if(input >= 70) {
+//            grade = 'C';
+//   } else {
+//            grade = 'D';   //중복 안나오게 신경쓰기
+//  }
+
+//         System.out.println("당신의 학점은" + grade + "입니다."); //질문 1 따옴표 금지
+//  }
+// }
+
+// // !! else if 붙이지 말것. 마지막 else는 조건 없이 나머지 다 지칭하는것. 
+
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+
+//     int score = 0;
+//   Scanner scanner = new Scanner(System.in);  
+    
+//   System.out.print ("점수를 입력해주세요.>");  
+//   score = scanner.nextInt();
+
+
+// System.out.print("당신의 점수는 " + score + "점 입니다.");
+    
+//   }
+// }
+
+
+//--------프린트f사용---------------------
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+
+//     int score = 0;
+//     char grade = ' '; //지역변수
+//   Scanner scanner = new Scanner(System.in);  
+    
+//   System.out.print ("점수를 입력해주세요.>");  
+//   score = scanner.nextInt();
+
+//     System.out.printf("당신의 점수는 %d점입니다.",score);    
+
+// //변수는 크게 지역변수(local variable)와 전역변수(golbal varlable)로 나뉜다. 일반적으로는 지역변수를 쓰는게 적합하나 전역변수를 사용하는 경우도 있다. 위에서 grade를 처리한게 지역변수 처리인데 왜 그렇게 했나면 밑에서 중괄호 안에서 전역변수 처리 해버리면 괄호안에서만 영향을 미치기 때문에. 
+    
+// if (score >=90) {
+//     grade = 'A';
+// } else if (score >=80) {
+//     grade = 'B';
+// } else if (score >=70) {
+//     grade = 'C';
+// } else {
+//     grade = 'D';
+// }
+
+//     System.out.printf("당신의 학점은 %c입니다.", grade);
+    
+// }
+// }
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+
+//     int score = 0;
+//     char grade = ' '; //지역변수
+//     char opt = ' ';
+//   Scanner scanner = new Scanner(System.in);  
+    
+//   System.out.print ("점수를 입력해주세요.>");  
+//   score = scanner.nextInt();
+
+//     System.out.printf("당신의 점수는 %d점입니다.",score);    
+
+// //변수는 크게 지역변수(local variable)와 전역변수(golbal varlable)로 나뉜다. 일반적으로는 지역변수를 쓰는게 적합하나 전역변수를 사용하는 경우도 있다. 위에서 grade를 처리한게 지역변수 처리인데 왜 그렇게 했나면 밑에서 중괄호 안에서 전역변수 처리 해버리면 괄호안에서만 영향을 미치기 때문에. 
+    
+// if (score >=90){
+//     grade = 'A';
+//     if (score >=98) {
+//       opt = '+';
+//       } else if (score >=94) {
+//         opt = '0';
+//       } else {
+//         opt = '-';
+//       }
+//   } else if (score >=80) {
+//     grade = 'B';
+// } else if (score >=70) {
+//     grade = 'C';
+// } else {
+//     grade = 'D';
+// }
+
+//     System.out.printf("당신의 학점은 %c입니다.", grade);
+    
+//   }
+// }
+
+
+
+////////--------------------switch------------------------------------
+
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+// String name;
+//   int score = 0;
+//     Scanner scanner = new Scanner (System.in);
+
+//     System.out.print ("현재 월을 입력하세요.>");
+//     int score = scanner.nextInt();    
+
+//     if (score <= 2 | score >= 12 ) { // | 1개는 앞에꺼만 충족되면 통과. |2개는 뒤에꺼까지 충족되어야 통과.
+//         name = "겨울";
+//     } else if (score >= 3) {
+//       name = "봄";
+//     } else if (score >= 6) {
+//       name = "여름";
+//     } else {
+//       name = "가을";
+//     }
+
+// System.out.printf("현재의 계절은 %d입니다.");    
+      
+
+//   }
+// }
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+// String name;
+//     int month = 0;
+//     Scanner scanner = new Scanner (System.in);
+//     System.out.print ("현재 월을 입력하세요.>");
+//    int month = scanner.nextInt();
+
+//     Switch (month) {
+//       case 1: 
+//       case 2:      
+//           System.out.println("현재 계절은 겨울입니다.");
+//           break;
+//       case 3: case 4: case 5:
+//         System.out.println("현재 계절은 봄입니다.");
+//           break;        
+
+//     }
+//   }
+// }
+
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+//     Scanner scanner = new Scanner(System.in);    
+    
+//   System.out.print ("당신의 주민번호를 입력하세요 : ");
+//     String num = scanner.nextLine();
+    
+// char gender = num.charAt(7);
+
+//   switch(gender) {
+//     case '1': case '3':
+//         System.out.println("당신은 남성입니다.");
+//         break;
+//     case '2': case '4':
+//         System.out.println("당신은 여성입니다.");
+//         break;
+//         default:
+//         System.out.println("잘못 입력하셨습니다.");
+       
+//   }
+    
+//     System.out.println(gender)
+    
+//   }
+// }
+
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+
+//     Scanner scanner = new Scanner(System.in);
+
+//     System.out.print("가위 1, 바위 2, 보 3 중 하나를 입력하세요.>");
+//     int num = scanner.nextInt();
+
+//    // System.out.printf("당신은 %d입니다.%n", num);  // 여기까지가 사람
+
+//     // 난수 발생
+//       // 1. 난수는 0 ~ 1 사이의 소숫값으로 발생하는 것이 기본이다.
+//       // 2. 캐스팅. -> 형변환. 여기서는 (int)를 넣어서 정수화.
+//       // 3. 1,2,3 셋 중 하나의 정수로만 난수 발생.
+//     int com = (int)(Math.random()*3)+1; //math.random은 퍼센트 난수 발생시킬때 자주 쓴다.
+
+//     System.out.printf("당신은 %d입니다.%n",num);
+//     System.out.printf("컴퓨터는 %d입니다.%n",com);
+
+//     if ((num-com)==0) {
+//       System.out.println("둘은 비겼습니다.");
+//     } else if (num - com=-1) {
+//       System.out.println("컴퓨터가 이겼습니다.");
+//     }
+//       else if (num - com=1) {
+//       System.out.println("당신이 이겼습니다.");
+//       }
+//       else if (num - com=-2) {
+//       System.out.println("컴퓨터가 이겼습니다.");
+//     } else {
+//       System.out.println("당신이 이겼습니다.");
+//     }
+    
+
+//   }
+// }
+
+
+
+
+
+// import java.util.*;
+
+// class Main {
+//   public static void main(String[] args) {
+
+
+// Scanner scanner = new Scanner (System.in);
+//     System.out.print("당신의 점수를 입력하세요.(1~100)");
+//     int num = scanner.nextInt();
+    
+
+//   char num = int(num/10);
+
+//     Switch(num) {
+//       case '10', case '9' :
+//       System.out.println("당신의 학점은 A입니다.");
+//       break;
+//       case '8' :
+//       System.out.println("당신의 학점은 B입니다.")
+//     }
+
+
+//     }
+// } //ㅁㅣ완
+
+
+
+
+import java.util.*;
+
 class Main {
   public static void main(String[] args) {
 
-System.out.println("Hello World!!!");
+Scanner scanner = new Scanner (System.in);
+  System.out.print("당신의 주민번호를 입력하세요.");
+String num = scanner.nextline(); //왜이러는건데
+    
+    char gender = num.charAt(7);
+
+    switch(gender){
+      case '1' :
+        System.out.print("당신은 2000년 이전에 출생한 남자입니다.");
+      break;
+      case '2' :
+        System.out.print("당신은 2000년 이전에 출생한 여자입니다.");
+      break;
+      case '3' :
+        System.out.print("당신은 2000년 이후에 출생한 남자입니다.");
+      break;
+        System.out.print("당신은 2000년 이후에 출생한 여자입니다.");
+      break;
+      dafault:
+        System.out.print("잘못 입력하셨습니다.");
+    }
+
     
   }
 }
-
-
-
-import java.util.Scanner;
-
-class Main {
-  public static void main(String[] args) {
-
-Scanner stdIn = new Scanner(System.in);
-    System.out.println("정숫값 :");
-    int x = stdIn.nextInt();
-
-    System.out.println("마지막 자릿수를 제외한 값은 " + (x / 10) + "입니다."); //나누기는 홀수 짝수 배수 연산자 구할때 사용
-System.out.println("마지막 자릿수는 " + (x%10)+ "입니다.");    //미완
-
-
-  }
-    
-  }
-
-import java.util.Scanner;
-
-class Main {
-  public static void main(String[] args) {
-
-Scanner stdIn = new Scanner(System.in);
-  System.out.println("x값 :");
-  Double x = stdIn.nextDouble();//객체이름수정
- System.out.println("y값 :");
-    Double y = stdIn.nextDouble();
-    
-    System.out.println("합계는 " + (x + y) + "입니다.");
-    System.out.println("평균은" + (x + y) / 2 + "입니다.");
-
-
-  }
-
-  }  
-
-
-import java.util.Scanner;
-
-class Main {
-  public static void main(String[] args) {
-
-Scanner stdIn = new Scanner(System.in);
-    
-    System.out.println("삼각형의 넓이를 구합니다.");
-    
-    System.out.println("밑변:");
-    Double width = stdIn.nextDouble();
-    
-  System.out.println("높이:");    
-    Double height = stdIn.nextDouble();
-    
-  System.out.println("넓이는 " + ((width + height) / 2) + "입니다.");
-
-
-
-    
-  }
-}
-
-
-
-
-
-
-
