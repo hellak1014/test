@@ -1,0 +1,71 @@
+class Main {
+  public static void main(String[] args) {
+
+System.out.println("Hello World!!!");
+    
+  }
+}
+
+
+
+import java.util.Scanner;
+
+class Main
+  public static void main(String[] args) {
+
+Scanner stdIn = new Scanner(System.in);
+    System.out.println("정숫값 :");
+Double x = Scanner.nextInt();
+
+    System.out.println("마지막 자릿수를 제외한 값은 " = (x / 10) + "입니다."); //나누기는 홀수 짝수 배수 연산자 구할때 사용
+System.out.println("마지막 자릿수는 " + )    //미완
+
+    
+  }
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+Scanner stdIn = new Scanner(System.in);
+  System.out.println("x값 :");
+  Double x = stdIn.nextDouble();//객체이름수정
+ System.out.println("y값 :");
+    Double y = stdIn.nextDouble();
+    
+    System.out.println("합계는 " + (x + y) + "입니다.");
+    System.out.println("평균은" + (x + y) / 2 + "입니다.");
+
+
+  }
+
+  }  
+
+
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+
+Scanner stdIn = new Scanner(System.in);
+    
+    System.out.println("삼각형의 넓이를 구합니다.");
+    
+    System.out.println("밑변:");
+    Double width = stdIn.nextDouble();
+    
+  System.out.println("높이:");    
+    Double height = stdIn.nextDouble();
+    
+  System.out.println("넓이는 " + ((width + height) / 2) + "입니다.");
+
+
+
+    
+  }
+}
+
+
+
+
